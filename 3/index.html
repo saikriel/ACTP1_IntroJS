@@ -62,5 +62,18 @@
 
       </fieldset>
     </form>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+      <script>
+        $("h1").css("color", "red");
+        $(".section-1").css("background-color", "yellow");
+        counter = $(".counter").text();
+        counter = parseInt(counter);
+        console.log(counter + 10);
+        $("#row-3").on("click", function(){
+            $(this).css("background-color", "grey");
+          });
+        $('section h1').css("font-size", "2em");
+        $(".row:last-child").css("background-color" , "red")
+      </script>
   </body>
 </html>
